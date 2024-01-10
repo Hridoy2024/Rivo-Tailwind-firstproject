@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Rufina:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply w-[1378px] mx-auto;
+}
+
+.nav-link {
+  @apply text-[#224F34] text-xl font-medium uppercase;
+}
+
+.btn {
+  @apply text-[#224F34] transition-all hover:bg-yellow-300 hover:text-white text-xl font-medium uppercase py-2.5 px-10 border-2 border-[#224F34];
+}
